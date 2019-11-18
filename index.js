@@ -17,7 +17,7 @@ const titleCased = () => {
     let words = str.split(' ')
     // Capitalize each word
     let capitalize = words.map(w => w.charAt(0).toUpperCase() + w.slice(1))
-    // Return capitalized words to str
+    // Return capitalized words as new str
     return capitalize.join(' ')
   })
 }
